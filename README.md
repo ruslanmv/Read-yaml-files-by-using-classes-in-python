@@ -9,8 +9,6 @@ This program aim to help read yaml files in an easy way.
 **LoadYaml** provides a class that provides a dictionary for keeping items that will be available globally.
 Yaml can also be parsed and added to the dictionary.  This is useful for reading config files. 
 
-
-
 Requirements: PyYaml
 
 ```
