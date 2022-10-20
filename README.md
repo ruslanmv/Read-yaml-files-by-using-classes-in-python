@@ -6,10 +6,18 @@ Today we are going to create a class in python that will allow us read configura
 
 This program aim to help read yaml files in an easy way.
 
-**readyaml** provides a class that provides a dictionary for keeping items that will be available globally.
+**LoadYaml** provides a class that provides a dictionary for keeping items that will be available globally.
 Yaml can also be parsed and added to the dictionary.  This is useful for reading config files. 
 
-# How to use
+
+
+Requirements: PyYaml
+
+```
+pip install PyYaml
+```
+
+# How to use LoadYaml
 
 First we need to load this class
 
