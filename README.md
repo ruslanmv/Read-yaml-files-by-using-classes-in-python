@@ -60,7 +60,7 @@ print(y.dict())
 
 you will get
 
-```json
+```python
 {'APP': {'ENVIRONMENT': 'test', 'DEBUG': True}, 'DATABASE': {'USERNAME': 'ruslanmv', 'PASSWORD': 'abcd', 'HOST': '127.0.0.1', 'PORT': 5432, 'DB': 'capgeminidb'}}
 ```
 
@@ -78,7 +78,7 @@ Print the object
 print(x)
 ```
 
-```json
+```python
 {'USERNAME': 'Nicola'}
 ```
 
@@ -94,7 +94,7 @@ z = LoadYaml(DB="leapaudit")
 print(z)
 ```
 
-```
+```python
 {'DB': 'leapaudit'}
 ```
 
