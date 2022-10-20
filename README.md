@@ -41,18 +41,18 @@ DATABASE:
 
 Then we can define the file
 
-```
+```python
 y = LoadYaml()
 y.load_file("test_data.yml")
 ```
 
-```
+```python
 print(y.dict())
 ```
 
 you will get
 
-```
+```json
 {'APP': {'ENVIRONMENT': 'test', 'DEBUG': True}, 'DATABASE': {'USERNAME': 'ruslanmv', 'PASSWORD': 'abcd', 'HOST': '127.0.0.1', 'PORT': 5432, 'DB': 'capgeminidb'}}
 ```
 
@@ -60,7 +60,7 @@ you will get
 
 We can create a singleton object and add our first acronym
 
-```
+```python
 x = LoadYaml(USERNAME="Nicola")
 ```
 
@@ -70,23 +70,23 @@ Print the object
 print(x)
 ```
 
-```
+```json
 {'USERNAME': 'Nicola'}
 ```
 
 Let's create another singleton object and if it refers to the same attribute dictionary by adding another acronym.
 
-```
-y = LoadYaml(DB="leapaudit")
+```python
+z = LoadYaml(DB="leapaudit")
 ```
 
  Print the object
 
 ```
-print(y)
+print(z)
 ```
 
 ```
-{'USERNAME': 'Nicola'}
+{'DB': 'leapaudit'}
 ```
 
